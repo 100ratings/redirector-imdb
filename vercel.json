@@ -2,8 +2,24 @@
   "redirects": [
     {
       "source": "/",
-      "has": [{ "type": "host", "value": "imdb.pw" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "imdb.pw"
+        }
+      ],
       "destination": "https://imdbpicks.com/CM6U6Lx9eDQ1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.imdb.pw"
+        }
+      ],
+      "destination": "https://imdb.pw",
       "permanent": true
     }
   ]
